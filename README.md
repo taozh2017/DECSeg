@@ -3,7 +3,7 @@
 > **Authors:** 
 > [Yunqi Gu](),
 > [Tao Zhou](https://taozh2017.github.io/),
-> [Yizhe Zhang](),
+> [Yizhe Zhang](https://yizhezhang.com/),
 > [Yi Zhou](https://cse.seu.edu.cn/2021/0303/c23024a362239/page.htm), 
 > [Kelei He](https://scholar.google.com/citations?user=0Do_BMIAAAAJ&hl=en), 
 > [Chen Gong](https://gcatnjust.github.io/ChenGong/index.html), and
@@ -20,9 +20,7 @@
 
 ### 1.1. :fire: NEWS :fire:
 
-- [2023/05/20] Release training/testing code.
-
-- [2020/05/10] Create repository.
+- [2024/10/12] Release training/testing code.
 
 
 ### 2.1. Table of Contents
@@ -80,11 +78,11 @@ a single NVIDIA GeForce RTX3090 GPU with 24 GB Memory.
     Note that DEC-Seg is only tested on Ubuntu OS with the following environments. 
     It may work on other operating systems as well but we do not guarantee that it will.
     
-    + Creating a virtual environment in terminal: `conda create -n DEC-Seg python=3.8`.
+    + Creating a virtual environment in terminal: `conda create -n DECSeg python=3.8`.
     
     + Installing necessary packages: PyTorch 1.9.0
 
-2. Downloading necessary data:
+2. Preparing necessary data:
 
     + preprocess the training and test data and place it into `./data/` with the following structure:
       ```
